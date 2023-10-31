@@ -41,7 +41,7 @@ const OrderOfNames = (props: Props) => {
             {alphabets.map((alphabet, index) => (
               <div
                 key={index}
-                className="w-[55px] h-[60px] border bg-white flex items-center justify-center"
+                className="w-[55px] h-[60px] border bg-white flex items-center justify-center hover:cursor-pointer hover:border-[#09833D]"
               >
                 <p className="text-[24px] font-semibold text-[#4F4F4F]">
                   {alphabet}

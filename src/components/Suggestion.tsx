@@ -9,12 +9,12 @@ const Suggestion = (props: Props) => {
   return (
     <div>
       <ContainerLayout>
-        <div className="flex items-center my-[40px]">
-          <div className="w-[50%]">
+        <div className="flex flex-col md:flex-row gap-[20px] px-[2%] items-center my-[40px]">
+          <div className="md:w-[50%]">
             <Image src={image} alt="suggestion-image" />
           </div>
 
-          <div className="text-[#2E4051] w-[50%]">
+          <div className="text-[#2E4051] md:w-[50%]">
             <h1 className="font-black text-[40px]">Suggest New Names?</h1>
             <p className="text-[24px] opacity-[0.75] mt-[16px]">
               Contribute to our rich tapestry of names! Share your unique Akwa

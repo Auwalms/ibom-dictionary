@@ -9,7 +9,7 @@ const Footer = (props: Props) => {
   return (
     <div>
       <ContainerLayout>
-        <div className="flex justify-between items-center py-[16px]">
+        <div className="flex flex-col-reverse md:flex-row gap-[30px] px-[2%] md:px-0 justify-between items-center py-[16px]">
           <div>
             <p>Copyright © 2023. ibomnames.com </p>
           </div>

@@ -9,7 +9,7 @@ const Header = (props: Props) => {
   return (
     <section>
       <ContainerLayout>
-        <div className="flex items-center justify-between mt-[75px] py-[52px]">
+        <div className="flex flex-col md:flex-row gap-[20px] px-[2%] items-center justify-between mt-[75px] py-[52px]">
           <div className="text-[#2E4051]">
             <h1 className="text-[80px] font-black">Mmekòm o</h1>
             <p className="text-[28px] font-extralight opacity-[0.75]">

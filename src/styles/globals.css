@@ -8,6 +8,13 @@
   font-family: "Nunito", sans-serif;
 }
 
+.search-background {
+  background-image: url("/search-header-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 /* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
