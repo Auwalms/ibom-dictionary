@@ -7,7 +7,7 @@ type Props = {};
 
 const Header = (props: Props) => {
   return (
-    <div>
+    <section>
       <ContainerLayout>
         <div className="flex items-center justify-between mt-[75px] py-[52px]">
           <div className="text-[#2E4051]">
@@ -32,7 +32,7 @@ const Header = (props: Props) => {
           </div>
         </div>
       </ContainerLayout>
-    </div>
+    </section>
   );
 };
 

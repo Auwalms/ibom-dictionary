@@ -10,9 +10,9 @@ const Nav = (props: Props) => {
   const isActive = "font-semibold text-[#09833D]";
   const isNotActive = "font-medium text-[#828282]";
   return (
-    <div className="top-0 right-0 left-0 z-high w-full mx-auto items-center hidden lg:flex bg-transparent fixed">
+    <div className="top-0 right-0 left-0 z-high w-full mx-auto items-center hidden lg:flex bg-transparent fixed shadow-navShadow">
       <ContainerLayout>
-        <div className="flex justify-between items-center py-[16px] shadow-navShadow">
+        <div className="flex justify-between items-center py-[16px]">
           <div>
             <Link href="/">
               <Image src={logo} alt="logo" />
