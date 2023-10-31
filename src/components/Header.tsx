@@ -17,7 +17,7 @@ const Header = (props: Props) => {
             </p>
             <div className="flex mt-[64px]">
               <input
-                className="h-[76px] pl-[24px] rounded-tl-[15px] rounded-bl-[15px] w-full border-2 border-[#CED9E3] bg-searchInputColor"
+                className="h-[76px] pl-[24px] rounded-tl-[15px] rounded-bl-[15px] w-full border-2 border-[#CED9E3] outline-none bg-searchInputColor"
                 type="text"
                 placeholder="Type any Akwa Ibom name here..."
               />

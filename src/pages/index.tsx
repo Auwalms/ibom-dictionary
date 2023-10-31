@@ -1,5 +1,9 @@
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Nav from "@/components/Nav";
+import OrderOfNames from "@/components/OrderOfNames";
+import Statistics from "@/components/Statistics";
+import Suggestion from "@/components/Suggestion";
 import Head from "next/head";
 
 export default function Home() {
@@ -10,9 +14,13 @@ export default function Home() {
         <meta name="description" content="From idea to product, like magic!" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <div>
+      <div className="w-full relative flex flex-col">
         <Nav />
         <Header />
+        <Statistics />
+        <OrderOfNames />
+        <Suggestion />
+        <Footer />
       </div>
     </>
   );
