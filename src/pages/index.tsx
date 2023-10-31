@@ -11,7 +11,10 @@ export default function Home() {
     <>
       <Head>
         <title>Ibom Dictionary</title>
-        <meta name="description" content="From idea to product, like magic!" />
+        <meta
+          name="description"
+          content="The most detailed resource for verifying the meanings of native Akwa Ibom names."
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logo.svg" />
       </Head>

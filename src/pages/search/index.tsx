@@ -13,7 +13,10 @@ const SearchPage = (props: Props) => {
     <>
       <Head>
         <title>Ibom Dictionary | Search a name</title>
-        <meta name="description" content="From idea to product, like magic!" />
+        <meta
+          name="description"
+          content="FSearch for a name and find its meaning!"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logo.svg" />
       </Head>
