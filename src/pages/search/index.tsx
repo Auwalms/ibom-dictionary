@@ -1,6 +1,7 @@
 import Footer from "@/components/Footer";
 import Nav from "@/components/Nav";
 import OrderOfNames from "@/components/OrderOfNames";
+import NotFound from "@/components/search/NotFound";
 import Results from "@/components/search/Results";
 import Search from "@/components/search/Search";
 import Head from "next/head";
@@ -25,6 +26,7 @@ const SearchPage = (props: Props) => {
         <Nav />
         <Search />
         <Results />
+        <NotFound />
         <OrderOfNames />
         <Footer />
       </div>

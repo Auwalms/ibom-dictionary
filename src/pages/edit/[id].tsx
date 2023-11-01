@@ -55,7 +55,7 @@ const EditMeaning = (props: Props) => {
                 </div>
 
                 <div className="mt-[32px]">
-                  <label className="text-[#BDBDBD] text-[24px] font-medium">
+                  <label className="text-[#333] text-[24px] font-medium">
                     Meaning
                   </label>
                   <textarea

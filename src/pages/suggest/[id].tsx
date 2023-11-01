@@ -8,12 +8,12 @@ import React from "react";
 
 type Props = {};
 
-const AddMeaning = (props: Props) => {
+const SuggestMeaning = (props: Props) => {
   return (
     <>
       <Head>
-        <title>Ibom Dictionary | Add meaning to a name</title>
-        <meta name="description" content="Edit the meaning of a name" />
+        <title>Ibom Dictionary | Suggest name meaning</title>
+        <meta name="description" content="Add a name" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logo.svg" />
       </Head>
@@ -27,14 +27,14 @@ const AddMeaning = (props: Props) => {
             <div className="bg-white mt-[72px] pt-[24px] pb-[132px] mx-[4%]">
               <div className="pl-[40px]">
                 <h1 className="text-black text-[40px] font-bold">
-                  Edit or Improve meaning
+                  Add meaning suggestion
                 </h1>
               </div>
 
               <div className="flex flex-col mt-[48px] mx-[4%]">
-                <div className="flex flex-col md:flex-row text-[#BDBDBD] text-[24px] font-medium md:gap-[60px]">
+                <div className="flex flex-col md:flex-row text-[24px] font-medium md:gap-[60px]">
                   <div className="w-full">
-                    <label className="">Name</label>
+                    <label className="text-[#BDBDBD]">Name</label>
                     <input
                       type="text"
                       placeholder="Mfon"
@@ -44,12 +44,11 @@ const AddMeaning = (props: Props) => {
                   </div>
 
                   <div className="w-full">
-                    <label className="">Figure of Speech</label>
+                    <label className="text-[#333]">Figure of Speech</label>
                     <input
                       type="text"
                       placeholder="Noun"
-                      disabled={true}
-                      className="text-[20px] border border-[#828282] rounded-[10px] py-[19px] pl-[24px] outline-none w-full mt-[8px] hover:cursor-not-allowed"
+                      className="text-[20px] border border-[#828282] rounded-[10px] py-[19px] pl-[24px] outline-none w-full mt-[8px]"
                     />
                   </div>
                 </div>
@@ -67,14 +66,13 @@ const AddMeaning = (props: Props) => {
                 </div>
 
                 <div className="mt-[32px]">
-                  <label className="text-[#BDBDBD] text-[24px] font-medium">
+                  <label className="text-[#333] text-[24px] font-medium">
                     Synonyms
                   </label>
                   <input
                     type="text"
                     placeholder="Synonyms"
-                    disabled={true}
-                    className="text-[20px] border border-[#828282] rounded-[10px] py-[19px] pl-[24px] outline-none w-full mt-[8px] hover:cursor-not-allowed"
+                    className="text-[20px] border border-[#828282] rounded-[10px] py-[19px] pl-[24px] outline-none w-full mt-[8px]"
                   />
                 </div>
 
@@ -96,4 +94,4 @@ const AddMeaning = (props: Props) => {
   );
 };
 
-export default AddMeaning;
+export default SuggestMeaning;
