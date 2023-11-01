@@ -7,6 +7,7 @@ import {
   ThumbsDown,
   ThumbsUp,
 } from "../Icons/Icons";
+import Link from "next/link";
 
 type Props = {};
 
@@ -50,14 +51,20 @@ const Results = (props: Props) => {
             </div>
 
             <div className="mt-[20px] flex justify-end gap-[24px]">
-              <button className="flex gap-[8px] items-center text-[#09833D] text-[18px] font-semibold p-[16px] rounded-[10px] border border-[#09833D] mt-[24px]">
+              <Link
+                href={`/edit/test`}
+                className="flex gap-[8px] items-center text-[#09833D] text-[18px] font-semibold p-[16px] rounded-[10px] border border-[#09833D] mt-[24px]"
+              >
                 <EditIcon />
                 Edit or Improve meaning
-              </button>
-              <button className="flex gap-[8px] items-center text-[#09833D] text-[18px] font-semibold p-[16px] rounded-[10px] border border-[#09833D] mt-[24px]">
+              </Link>
+              <Link
+                href={`/edit/test`}
+                className="flex gap-[8px] items-center text-[#09833D] text-[18px] font-semibold p-[16px] rounded-[10px] border border-[#09833D] mt-[24px]"
+              >
                 <PlusIcon />
                 Add another meanings
-              </button>
+              </Link>
             </div>
           </div>
         </div>
