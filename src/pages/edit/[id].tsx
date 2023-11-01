@@ -27,7 +27,7 @@ const EditMeaning = (props: Props) => {
             <div className="bg-white mt-[72px] pt-[24px] pb-[132px] mx-[4%]">
               <div className="pl-[40px]">
                 <h1 className="text-black text-[40px] font-bold">
-                  Add another meaning
+                  Edit or Improve meaning
                 </h1>
               </div>
 
